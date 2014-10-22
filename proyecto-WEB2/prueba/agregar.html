@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Agregar Carrera</title>
+        <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../style2.css">  
+        <script type="text/javascript" src="jssCarrera.js"></script>
+    </head>
+    <body>	
+        <div class="wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">                 
+                            <form id="info" action="funciones_carrera.php" method="post"> 
+                                <label for="nombre">Nombre carrera</label>
+                                <input type="text" size="25" maxlength="25" id="nombre" name="nombre"></input>
+                                <br/><br/>
+                                <label for="codigoCarrera">Codigo de carrera</label>
+                                <input type="text" size="25" maxlength="25" id="codigoCarrera" name="codigoCarrera" ></input>
+                                <br/><br/>
+                                <label for="creditos">Cantidad de creditos </label>
+                                <input type="text" size="25" maxlength="25" id="creditos" name="creditos"></input><br/><br/>
+                                <input class="btn btn-primary" type="submit" value="casa" name="casa">   
+                            </form>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>                
+        </div>      
+    	 
+    </body>
+</html>
+
